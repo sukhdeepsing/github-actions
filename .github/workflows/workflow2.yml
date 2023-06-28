@@ -1,6 +1,6 @@
 name: Reusing workflows
 
-on: push
+on: workflow_call
 jobs:
   workflow_reuse:
     uses: ./.github/workflows/workflow1.yml
